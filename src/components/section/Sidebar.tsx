@@ -69,7 +69,9 @@ const Sidebar = () => {
                     </div>
                   </AccordionDetails>
                 </Accordion>
-                <div className="text-sm my-2 hidden">About</div>
+                <div className="text-sm my-2">
+                  <Link to="/about">About</Link>
+                </div>
                 <div className="text-sm my-2">Contact</div>
               </div>
               <div id="my-social" className="flex flex-row my-3">
