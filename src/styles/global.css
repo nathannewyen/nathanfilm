@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://use.typekit.net/vuq8cah.css");
+@layer base {
+    html {
+      font-family: Proxima Nova, system-ui, sans-serif;
+    }
+
+    .font-europa {
+        font-family: europa, sans-serif
+    }
+}
+
+.swiper-button-prev::after, .swiper-button-next::after  {
+  font-size: 16px !important;
+  color: #000;
+}
+
+
+.swiper-button-prev {
+  position: absolute !important;
+  top: 10px !important;
+  right: 20px !important;
+  left: 90% !important ;
+}
+
+@media (min-width: 375px) { 
+  .swiper-button-prev {
+    left: 80% !important ;
+  }
+}
+
+.swiper-button-next {
+  position: absolute !important;
+  top: 10px !important;
+  right: 0 !important;
+}
+
+.swiper-scrollbar-horizontal, .swiper-pagination {
+  display: none; 
+}
+
+.my-work {
+  border: none !important;
+  box-shadow: none !important;
+  min-height: 0 !important;
+}
+
+.list-works {
+  padding: 0 !important;
+  box-shadow: 0 !important;
+  min-height: 0 !important;
+}
+
+.list {
+  padding: 0 16px !important;
+}
+
+.css-o4b71y-MuiAccordionSummary-content {
+  margin: 0 !important;
+}
+
+.text-gray {
+  color: #666666;
+}
